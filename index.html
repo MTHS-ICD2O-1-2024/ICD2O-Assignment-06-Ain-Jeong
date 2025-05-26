@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8" />
-  <meta name="description" content="Weather Today, with API & JSON" />
+  <meta name="description" content="Random Extinct Animal Facts, with JS (API)" />
   <meta name="keywords" content="mths, icd2o" />
   <meta name="author" content="Ain Jeong" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,7 +14,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
   <link rel="manifest" href="site.webmanifest" />
-  <title>Weather Today, with API & JSON</title>
+  <title>Random Extinct Animal Facts, with JS (API)</title>
 </head>
 
 <body>
@@ -23,27 +23,25 @@
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
-        <span class="mdl-layout-title">Weather Today, with API & JSON</span>
+        <span class="mdl-layout-title">Random Extinct Animal Facts, with JS (API)</span>
       </div>
     </header>
     <main class="mdl-layout__content">
       <div class="right-image">
-        <img id="weather-icon" src="https://openweathermap.org/img/wn/03d@2x.png" alt="cloud image" width="95%"
-          height="auto">
+        <img id="random-image" src="./images/question-mark.png" alt="Random image">
       </div>
-      <div class="page-content">Weather Today:</div>
       <br />
       <!-- Simple Textfield for integers-->
       <form action="#">
         <!-- Accent-colored raised button with ripple -->
         <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
-          onclick="weatherToday ()">
-          Weather Today
+          onclick="checkRandomFacts ()">
+          Check Random Facts
         </button>
       </form>
       <br />
       <div class="page-content-answer">
-        <div id="weather-today"></div>
+        <div id="extinct-animal-facts"></div>
       </div>
   </div>
   </main>
