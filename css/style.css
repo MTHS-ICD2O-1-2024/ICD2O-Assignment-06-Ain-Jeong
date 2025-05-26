@@ -29,10 +29,11 @@
 
 img {
   height: auto;
-  width: 250px;
+  width: 300px;
   float: right;
+  padding-left: 5pt;
 }
 
 body {
-  background-color: rgb(162 217 226);
+  background-color: rgb(231 224 201);
 }

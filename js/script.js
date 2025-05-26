@@ -29,11 +29,22 @@ async function checkRandomFacts () {
 
     // output
     document.getElementById('random-image').src = imageSrc
+    // <b> format reference: 'https://www.w3schools.com/Jsref/jsref_bold.asp'
     document.getElementById('extinct-animal-facts').innerHTML =
-      'Name: ' + commonName + '(' + binomialName + ')<br />' +
-      'Location: ' + location + '<br />' +
-      'Last Record: ' + lastRecord + '<br />' +
-      'Short Description: ' + shortDescription + '<br />'
+      '<b>Name:</b> ' +
+      commonName +
+      ' (' +
+      binomialName +
+      ')<br />' +
+      '<b>Location:</b> ' +
+      location +
+      '<br />' +
+      '<b>Last Record:</b> ' +
+      lastRecord +
+      '<br />' +
+      '<b>Short Description:</b> ' +
+      shortDescription +
+      '<br />'
   } catch (error) {
     console.error(error)
   }
